@@ -290,7 +290,6 @@ video-pipeline-fpga/
 
 **Built with** `Verilog` · `Python` · `Vivado` · `NumPy` 
 
-⭐ *Star this repo if it helped you build your own ISP pipeline!*
 
 *— Team **Chip Chasers** · Chipmonk\_SAKEC\_hackathon*
 
