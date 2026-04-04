@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_pipeline_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_pipeline" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="8.375001 us"></ZoomEndTime>
+      <Cursor1Time time="8.375000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="212"></NameColumnWidth>
+      <ValueColumnWidth column_width="168"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/tb_pipeline/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/valid_in" type="logic">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/pixel_in" type="array">
+      <obj_property name="ElementShortName">pixel_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/x" type="array">
+      <obj_property name="ElementShortName">x[5:0]</obj_property>
+      <obj_property name="ObjectShortName">x[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/y" type="array">
+      <obj_property name="ElementShortName">y[3:0]</obj_property>
+      <obj_property name="ObjectShortName">y[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/r_out" type="array">
+      <obj_property name="ElementShortName">r_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/g_out" type="array">
+      <obj_property name="ElementShortName">g_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">g_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/b_out" type="array">
+      <obj_property name="ElementShortName">b_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/frame" type="array">
+      <obj_property name="ElementShortName">frame[31:0]</obj_property>
+      <obj_property name="ObjectShortName">frame[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/file_processed" type="array">
+      <obj_property name="ElementShortName">file_processed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file_processed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/pixel_count" type="array">
+      <obj_property name="ElementShortName">pixel_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/cycle_counter" type="array">
+      <obj_property name="ElementShortName">cycle_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/first_input_cycle" type="array">
+      <obj_property name="ElementShortName">first_input_cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">first_input_cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/first_output_cycle" type="array">
+      <obj_property name="ElementShortName">first_output_cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">first_output_cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/latency_cycles" type="array">
+      <obj_property name="ElementShortName">latency_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">latency_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/input_seen" type="array">
+      <obj_property name="ElementShortName">input_seen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_seen[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/output_seen" type="array">
+      <obj_property name="ElementShortName">output_seen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_seen[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/FRAME_WIDTH" type="array">
+      <obj_property name="ElementShortName">FRAME_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/FRAME_HEIGHT" type="array">
+      <obj_property name="ElementShortName">FRAME_HEIGHT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_HEIGHT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipeline/PIXEL_WIDTH" type="array">
+      <obj_property name="ElementShortName">PIXEL_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PIXEL_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
