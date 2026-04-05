@@ -200,6 +200,49 @@ heatmap     = generate_heatmap(diff)                   # Per-pixel Δ map
 | **Matching Accuracy** | **73.83%** |
 
 ---
+## Steps to Reproduce Simulation
+
+1. Open the Vivado project
+
+2. Add all RTL files from `rtl/`
+
+3. Add `tb/tb_pipeline.v` as simulation source
+
+4. Run Behavioral Simulation
+
+5. Generated files:
+   - `processed_frame_1.txt`
+   - `processed_frame_2.txt`
+   - `processed_frame_3.txt`
+
+6. Open terminal and go to python folder
+
+   ```bash
+   cd python
+   ```
+
+7. Run golden reference model
+
+   ```bash
+   python golden_reference.py
+   ```
+
+8. Run output comparison
+
+   ```bash
+   python compare_output.py
+   ```
+
+9. View:
+   - RTL Output
+   - Golden Reference
+   - Error Heatmap
+   - Accuracy Percentage
+
+10. For synthesis results:
+    - Run Synthesis
+    - Run Implementation
+    - Open Utilization, Timing, Power and DRC reports
 
 ## 🗂️ Repository Structure
 
